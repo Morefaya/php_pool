@@ -1,0 +1,40 @@
+body
+{
+	margin: auto;
+}
+
+#list,#list ul
+{
+	padding-left: 0;
+	text-align: center;
+	list-style: none;
+}
+
+#list li
+{
+	font-size: 2em;
+	display: inline-block;
+	width: 200px;
+	border: solid black 1px;
+	background-color: #939393;
+}
+
+#list li li
+{
+	font-size: 2em;
+	display: inherit;
+	background-color: #dddddd;
+}
+
+#list ul
+{
+	position: absolute;
+	overflow: hidden;
+	max-height: 0;
+	transition: .7s all .3s;
+}
+
+#list li:hover ul
+{
+	max-height: 15em;
+}
