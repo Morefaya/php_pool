@@ -1,0 +1,109 @@
+#tableau_p
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 95%;
+}
+
+.Autres_non_métaux
+{
+	background-color: #87ff42;
+}
+
+.Gaz_noble
+{
+	background-color: #1cdcff;
+}
+
+.Alcalins
+{
+	background-color: #ed2539;
+}
+
+.Alcalino_terreux
+{
+	background-color: #d69928;
+}
+
+.Métaloïde
+{
+	background-color: #529b73;
+}
+
+.Halogène
+{
+	background-color: #faff00;
+}
+
+.Métaux_pauvre
+{
+	background-color: grey;
+}
+
+.Métaux_de_transitions
+{
+	background-color: #ffc987;
+}
+
+.Lanthanides
+{
+	background-color: #ff93f9;
+}
+
+.Actinides
+{
+	background-color: #ff21f3;
+}
+
+.Elements_non_classé
+{
+	background-color: #c6c6c6;
+}
+
+body
+{
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+table
+{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+caption
+{
+	font-family: "Times New Roman";
+	font-size: 1vw;
+}
+
+#Mendeleïev
+{
+	width: 7%;
+	height: 12%;
+	font-size: 1vw;
+}
+
+div:first-child
+{
+	text-align: right;
+	font-size: 1vw;
+}
+div:nth-child(2)
+{
+	text-align: center;
+	font-size: 1.5vw;
+}
+div:nth-child(3)
+{
+	text-align: left;
+	font-size: 1vw;
+}
+td
+{
+	border: 1px solid black;
+	width: 1%;
+	height: 2%;
+}
