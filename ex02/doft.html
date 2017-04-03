@@ -9,8 +9,8 @@
 		<header>
 			<div><img src="resources/day_of_the_42.png" alt="doft_img" id="day_of_the_42"></div>
 			<div><img src="resources/loupe.png" alt="loupe_img" id="loupe_img"></div>
-			<div><img src="resources/reload.png" alt="reload_img" id="reload_img"></div>
-			<div><img src="resources/close.gif" alt="close_img" id="close_img"></div>
+			<div><a href="http://www.disney.com" title="Recommencer au début"><img src="resources/reload.png" alt="reload_img" id="reload_img"></a></div>
+			<div><a href="http://www.relaischateaux.com" title="Déconnecter"><img src="resources/close.gif" alt="close_img" id="close_img"></div>
 		</header>
 		<section>
 			<aside id="left_aside">
@@ -21,12 +21,25 @@
 				<div><a href="#" title="Parler"><img src="resources/chat-icon.png" alt="chat-icon" id="chat_img"></a></div>
 			</aside>
 			<article id="article">
-				<img src="resources/cluster.jpg" alt="img_cluster" id="img_cluster">
+				<img src="resources/cluster.jpg" alt="img_cluster" id="img_cluster" usemap="#my_map">
+				<map name="my_map" id="map">
+					<area shape="rect" coords="350,400,400,450" href="http://www.ikea.com" title="ikea" alt="ikea_link">
+					<area shape="rect" coords="800,350,950,450" href="http://www.apple.com" title="apple" alt="apple_link">
+				</map>
 			</article>
-			<aside id="right_aside"><p>aside</p></aside>
+			<aside id="right_aside">
+				<div><a href="#" title="Book"><img src="resources/book.png" alt="book_img" id="book_img"></a></div>
+				<div><a href="#" title="Towel"><img src="resources/towel.png" alt="towel_img" id="towel_img"></a></div>
+				<div><a href="#" title="Wall"><div id="wall_img"></div></a></div>
+			</aside>
 		</section>
 		<footer>
-			<p>footer</p>
+			<p>
+				Vous <span class="text-big">entrez</span> alors dans une grande piece remplie<br><span class="text-shadow">d'ordinateur...</span><br>- <span class="text-italique">Bonjour vous êtes nouveau ici ?</span>
+				<br>
+				<input type = "text" class = "input-text"/>
+				<button>Repondre</button>
+			</p>
 		</footer>
 	</body>
 </html>
