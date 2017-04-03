@@ -1,0 +1,160 @@
+body
+{
+	margin: auto;
+	/*border: solid black 5px;*/
+	width: 1600px;
+	height: 1200px;
+	background-color: #4f5051;
+}
+
+header
+{
+	/*border: solid red 5px;*/
+	margin: auto;
+	width: 1400px;
+	height: 120px;
+	background-color: #919191;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	box-shadow: 10px 10px 10px black;
+}
+
+section
+{
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/*border: solid blue 5px;*/
+	height: 600px;
+}
+
+#left_aside
+{
+	width: 130px;
+	height: 500px;
+	/*border: solid green 5px;*/
+	border-radius: 10px;
+	background-color: #919191;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	box-shadow: 10px 10px 10px black;
+}
+
+article
+{
+	width: 1000px;
+	height: 600px;
+	/*border: solid yellow 5px;*/
+	border-radius: 10px;
+	background-color: #919191;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: flex;
+	box-shadow: 10px 10px 10px black;
+}
+
+#right_aside
+{
+	width: 130px;
+	height: 500px;
+	/*border: solid green 5px;*/
+	border-radius: 10px;
+	background-color: #919191;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	box-shadow: 10px 10px 10px black;
+}
+
+footer
+{
+	position: relative;
+	top: -60px;
+	left: 80px;
+	/*border: solid orange 5px;*/
+	border-radius: 10px;
+	background-color: #76f756;
+	width: 430px;
+	height: 130px;
+	box-shadow: 10px 10px 10px black;
+}
+
+#img_cluster
+{
+	margin: auto;
+	width: 990px;
+	height: 590px;
+}
+
+#day_of_the_42
+{
+	position: relative;
+	top: 10px;
+	width: 400px;
+	height: 100px;
+}
+
+#loupe_img
+{
+	width: 180px;
+	height: 100px;
+	position: relative;
+	left: 780px;
+	top: 35px;
+}
+
+#reload_img
+{
+	width: 15px;
+	height: 15px;
+	position: relative;
+	left: 800px;
+	top: 5px;
+}
+
+#close_img
+{
+	width: 15px;
+	height: 15px;
+	position: relative;
+	left: 785px;
+	top: 100px;
+}
+
+#arrow_img
+{
+	width: 80px;
+	height: 80px;
+}
+
+#hand_img
+{
+	width: 80px;
+	height: 80px;
+}
+
+#eye_img
+{
+	width: 80px;
+	height: 80px;
+	border: solid red 6px;
+	border-radius: 10px;
+}
+
+#tool_img
+{
+	width: 80px;
+	height: 80px;
+}
+
+#chat_img
+{
+	width: 80px;
+	height: 80px;
+}
