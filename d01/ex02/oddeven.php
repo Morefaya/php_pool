@@ -19,7 +19,7 @@ while(true)
 			echo "Too big number\n";
 			continue;
 		}
-		else if ($nb == -1 * PHP_INT_MAX)
+		else if ($nb == -1 * PHP_INT_MAX - 1)
 		{
 			echo "Too small number\n";
 			continue;
