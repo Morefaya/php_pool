@@ -1,6 +1,6 @@
 #!/usr/bin/php
 <?php
-	if (isset($argv[0]) && isset($argv[1]))
+	if ($argc > 1)
 	{
 		$tab = array_filter(explode(" ", $argv[1]));
 		$first = array_shift($tab);
@@ -8,6 +8,4 @@
 		$str = implode(" ", $tab);
 		echo $str."\n";
 	}
-	else
-		echo "\n";
 ?>

@@ -7,7 +7,7 @@ function splitting($str)
 	return ($tmp);
 }
 
-if (isset($argv))
+if ($argc > 1)
 {
 	array_shift($argv);
 	$str = implode(" ", $argv);
@@ -15,6 +15,4 @@ if (isset($argv))
 	foreach ($tab as $arg)
 		echo $arg."\n";
 }
-else
-	echo "\n";
 ?>
