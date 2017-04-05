@@ -14,9 +14,19 @@
 			else if ($op == '*')
 				echo ($nb1 * $nb2);
 			else if ($op == '/')
-				echo ($nb1 / $nb2);
+			{
+				if (!$nb2)
+					echo "Cant't divide by 0";
+				else
+					echo ($nb1 / $nb2);
+			}
 			else if ($op == '%')
-				echo ($nb1 % $nb2);
+			{
+				if (!$nb2)
+					echo "Cant't divide by 0";
+				else
+					echo ($nb1 % $nb2);
+			}
 			else
 				echo "Syntax Error";
 		}
